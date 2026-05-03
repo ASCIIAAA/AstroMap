@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AstroMap",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "astromap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-astromap-Debug-8df59e6379420ed30d2c.json",
+					"name" : "astromap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "astromap_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-astromap_lib-Debug-e7188bc37628548e2423.json",
+					"name" : "astromap_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_advanced::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_advanced-Debug-16e5393a6afdc6b60b4a.json",
+					"name" : "test_advanced",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_benchmark::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_benchmark-Debug-5ce676db9edf65b94ba4.json",
+					"name" : "test_benchmark",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_octree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_octree-Debug-a0eee62c612d874c1274.json",
+					"name" : "test_octree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_veb::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_veb-Debug-1624dde37cca6738dbde.json",
+					"name" : "test_veb",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build",
+		"source" : "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}

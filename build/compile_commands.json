@@ -1,0 +1,86 @@
+[
+{
+  "directory": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/astromap_lib.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -O2 -o CMakeFiles\\astromap_lib.dir\\src\\Octree.cpp.obj -c \"D:\\College\\SECOND YEAR\\Semester 4\\ADS\\AstroMap\\src\\Octree.cpp\"",
+  "file": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/src/Octree.cpp",
+  "output": "CMakeFiles/astromap_lib.dir/src/Octree.cpp.obj"
+},
+{
+  "directory": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/astromap_lib.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -O2 -o CMakeFiles\\astromap_lib.dir\\src\\vEBTree.cpp.obj -c \"D:\\College\\SECOND YEAR\\Semester 4\\ADS\\AstroMap\\src\\vEBTree.cpp\"",
+  "file": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/src/vEBTree.cpp",
+  "output": "CMakeFiles/astromap_lib.dir/src/vEBTree.cpp.obj"
+},
+{
+  "directory": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/astromap_lib.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -O2 -o CMakeFiles\\astromap_lib.dir\\src\\FibonacciHeap.cpp.obj -c \"D:\\College\\SECOND YEAR\\Semester 4\\ADS\\AstroMap\\src\\FibonacciHeap.cpp\"",
+  "file": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/src/FibonacciHeap.cpp",
+  "output": "CMakeFiles/astromap_lib.dir/src/FibonacciHeap.cpp.obj"
+},
+{
+  "directory": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/astromap_lib.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -O2 -o CMakeFiles\\astromap_lib.dir\\src\\SuffixTree.cpp.obj -c \"D:\\College\\SECOND YEAR\\Semester 4\\ADS\\AstroMap\\src\\SuffixTree.cpp\"",
+  "file": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/src/SuffixTree.cpp",
+  "output": "CMakeFiles/astromap_lib.dir/src/SuffixTree.cpp.obj"
+},
+{
+  "directory": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/astromap_lib.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -O2 -o CMakeFiles\\astromap_lib.dir\\src\\RangeTree.cpp.obj -c \"D:\\College\\SECOND YEAR\\Semester 4\\ADS\\AstroMap\\src\\RangeTree.cpp\"",
+  "file": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/src/RangeTree.cpp",
+  "output": "CMakeFiles/astromap_lib.dir/src/RangeTree.cpp.obj"
+},
+{
+  "directory": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/astromap_lib.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -O2 -o CMakeFiles\\astromap_lib.dir\\src\\GalacticEngine.cpp.obj -c \"D:\\College\\SECOND YEAR\\Semester 4\\ADS\\AstroMap\\src\\GalacticEngine.cpp\"",
+  "file": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/src/GalacticEngine.cpp",
+  "output": "CMakeFiles/astromap_lib.dir/src/GalacticEngine.cpp.obj"
+},
+{
+  "directory": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/astromap_lib.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -O2 -o CMakeFiles\\astromap_lib.dir\\src\\Benchmark.cpp.obj -c \"D:\\College\\SECOND YEAR\\Semester 4\\ADS\\AstroMap\\src\\Benchmark.cpp\"",
+  "file": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/src/Benchmark.cpp",
+  "output": "CMakeFiles/astromap_lib.dir/src/Benchmark.cpp.obj"
+},
+{
+  "directory": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/astromap_lib.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -O2 -o CMakeFiles\\astromap_lib.dir\\src\\AsciiStarMap.cpp.obj -c \"D:\\College\\SECOND YEAR\\Semester 4\\ADS\\AstroMap\\src\\AsciiStarMap.cpp\"",
+  "file": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/src/AsciiStarMap.cpp",
+  "output": "CMakeFiles/astromap_lib.dir/src/AsciiStarMap.cpp.obj"
+},
+{
+  "directory": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/astromap_lib.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -O2 -o CMakeFiles\\astromap_lib.dir\\src\\advanced_structures.cpp.obj -c \"D:\\College\\SECOND YEAR\\Semester 4\\ADS\\AstroMap\\src\\advanced_structures.cpp\"",
+  "file": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/src/advanced_structures.cpp",
+  "output": "CMakeFiles/astromap_lib.dir/src/advanced_structures.cpp.obj"
+},
+{
+  "directory": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/astromap.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -O2 -o CMakeFiles\\astromap.dir\\main.cpp.obj -c \"D:\\College\\SECOND YEAR\\Semester 4\\ADS\\AstroMap\\main.cpp\"",
+  "file": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/main.cpp",
+  "output": "CMakeFiles/astromap.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/test_octree.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -O2 -o CMakeFiles\\test_octree.dir\\tests\\test_octree.cpp.obj -c \"D:\\College\\SECOND YEAR\\Semester 4\\ADS\\AstroMap\\tests\\test_octree.cpp\"",
+  "file": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/tests/test_octree.cpp",
+  "output": "CMakeFiles/test_octree.dir/tests/test_octree.cpp.obj"
+},
+{
+  "directory": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/test_veb.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -O2 -o CMakeFiles\\test_veb.dir\\tests\\test_veb.cpp.obj -c \"D:\\College\\SECOND YEAR\\Semester 4\\ADS\\AstroMap\\tests\\test_veb.cpp\"",
+  "file": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/tests/test_veb.cpp",
+  "output": "CMakeFiles/test_veb.dir/tests/test_veb.cpp.obj"
+},
+{
+  "directory": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/test_benchmark.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -O2 -o CMakeFiles\\test_benchmark.dir\\tests\\test_benchmark.cpp.obj -c \"D:\\College\\SECOND YEAR\\Semester 4\\ADS\\AstroMap\\tests\\test_benchmark.cpp\"",
+  "file": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/tests/test_benchmark.cpp",
+  "output": "CMakeFiles/test_benchmark.dir/tests/test_benchmark.cpp.obj"
+},
+{
+  "directory": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/test_advanced.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -O2 -o CMakeFiles\\test_advanced.dir\\tests\\test_advanced.cpp.obj -c \"D:\\College\\SECOND YEAR\\Semester 4\\ADS\\AstroMap\\tests\\test_advanced.cpp\"",
+  "file": "D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/tests/test_advanced.cpp",
+  "output": "CMakeFiles/test_advanced.dir/tests/test_advanced.cpp.obj"
+}
+]

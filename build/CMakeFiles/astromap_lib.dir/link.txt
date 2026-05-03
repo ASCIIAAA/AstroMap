@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libastromap_lib.a CMakeFiles/astromap_lib.dir/src/Octree.cpp.obj CMakeFiles/astromap_lib.dir/src/vEBTree.cpp.obj CMakeFiles/astromap_lib.dir/src/FibonacciHeap.cpp.obj CMakeFiles/astromap_lib.dir/src/SuffixTree.cpp.obj CMakeFiles/astromap_lib.dir/src/RangeTree.cpp.obj CMakeFiles/astromap_lib.dir/src/GalacticEngine.cpp.obj CMakeFiles/astromap_lib.dir/src/Benchmark.cpp.obj CMakeFiles/astromap_lib.dir/src/AsciiStarMap.cpp.obj CMakeFiles/astromap_lib.dir/src/advanced_structures.cpp.obj
+C:\MinGW\bin\ranlib.exe libastromap_lib.a

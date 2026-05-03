@@ -1,0 +1,8 @@
+D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build/CMakeFiles/astromap_lib.dir
+D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build/CMakeFiles/astromap.dir
+D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build/CMakeFiles/test_octree.dir
+D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build/CMakeFiles/test_veb.dir
+D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build/CMakeFiles/test_benchmark.dir
+D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build/CMakeFiles/test_advanced.dir
+D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build/CMakeFiles/edit_cache.dir
+D:/College/SECOND YEAR/Semester 4/ADS/AstroMap/build/CMakeFiles/rebuild_cache.dir
