@@ -42,6 +42,14 @@ const SPECTRAL_COLORS = {
 };
 const SPECTRAL_SIZES = { O:8, B:7, A:5, F:4.5, G:4, K:4, M:5 };
 
+function scalePos(pos) {
+  return pos.map(v => {
+    if (v === 0) return 0;
+    const sign = v < 0 ? -1 : 1;
+    return sign * Math.log2(Math.abs(v) + 1) * 80;
+  });
+}
+
 function starColor(star) { return SPECTRAL_COLORS[star.spectral] || "#ffffff"; }
 function starSize(star)  { return (SPECTRAL_SIZES[star.spectral] || 4) * 1.2; }
 
@@ -94,7 +102,7 @@ function initOrrery() {
 
   window.ASTRO.scene    = new THREE.Scene();
   window.ASTRO.camera   = new THREE.PerspectiveCamera(60, W / H, 0.1, 10000);
-  window.ASTRO.camera.position.set(0, 40, 130);
+  window.ASTRO.camera.position.set(0, 120, 380);
 
   window.ASTRO.renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
   window.ASTRO.renderer.setSize(W, H);
@@ -110,7 +118,7 @@ function initOrrery() {
     window.ASTRO.controls.dampingFactor    = 0.08;
     window.ASTRO.controls.screenSpacePanning = false;
     window.ASTRO.controls.minDistance      = 5;
-    window.ASTRO.controls.maxDistance      = 3000;
+    window.ASTRO.controls.maxDistance      = 2000;
     window.ASTRO.controls.rotateSpeed      = 0.6;
     window.ASTRO.controls.zoomSpeed        = 1.2;
   }
@@ -161,7 +169,7 @@ function renderStars() {
     const geo  = new THREE.SphereGeometry(starSize(star), 16, 16);
     const mat  = new THREE.MeshBasicMaterial({ color: starColor(star) });
     const mesh = new THREE.Mesh(geo, mat);
-    mesh.position.set(...star.pos);
+    mesh.position.set(...scalePos(star.pos));
     mesh.userData.star = star;
 
     // Glow sprite
@@ -223,7 +231,7 @@ function selectStar(star) {
   // Focus camera
   if (window.ASTRO.controls) {
     const t = window.ASTRO.controls.target;
-    t.set(...star.pos);
+    t.set(...scalePos(star.pos));
   }
 
   // Highlight selected
@@ -656,8 +664,9 @@ function initBridge() {
     const id   = parseInt(sel?.value);
     const star = STARS.find(s => s.id === id);
     if (star && window.ASTRO.controls) {
-      window.ASTRO.camera.position.set(star.pos[0]+5, star.pos[1]+5, star.pos[2]+5);
-      window.ASTRO.controls.target.set(...star.pos);
+      const sp = scalePos(star.pos);
+      window.ASTRO.camera.position.set(sp[0]+5, sp[1]+5, sp[2]+5);
+      window.ASTRO.controls.target.set(...sp);
       document.getElementById('viewmode-label').textContent = `BRIDGE: ${star.name.toUpperCase()}`;
       pushTickerEvent(`🚀 Teleported to ${star.name}`, 'success', 1);
     }
